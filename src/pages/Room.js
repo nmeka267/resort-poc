@@ -1,5 +1,10 @@
 import React from "react";
+import Hero from "../components/Hero";
 
-export default function Helli() {
-  return <div>Hello from room page</div>;
+export default function Room() {
+  return (
+    <div>
+      <Hero hero="roomsHero" />
+    </div>
+  );
 }
